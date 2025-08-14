@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* we will add classname app using this,we will add color to complete web page   */
 .app{
   min-height: 100vh;
   display: grid;
+  /* we have added grid so that we can easily align our weather app in the center  of the web page ; */
   background: rgb(125, 125, 176);
+  /* bg color on complete web page  */
 }
