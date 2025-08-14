@@ -12,6 +12,7 @@ const Weather = () => {
   return (
     <div>
         <h1>Weather</h1>
+        {/* now we have to replace this text, and display a box where we will display weather data so for that lets give it classname to this div and remove this h1 and design a box */}
     </div>
   )
 }
