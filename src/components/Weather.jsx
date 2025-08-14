@@ -31,8 +31,7 @@ const Weather = () => {
         <img src={clear_icon} alt="" className='weather-icon'/>
         <p className='temperature'>16°C</p>
         <p className='location'>Delhi</p>
-
-
+        {/* lets add some details about other things also like humidity and wind speed for that we will have 2 div and inside each div 1 img and some paragrap details will be there */}
     </div>
   )
 }
