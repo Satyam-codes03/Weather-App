@@ -13,7 +13,7 @@
   min-height: 100vh;
   display: grid;
   /* we have added grid so that we can easily align our weather app in the center  of the web page ; */
-  background: rgb(125, 125, 176);
+  background: rgb(158, 158, 232);
   /* bg color on complete web page  */
 }
 /* go and create a component as we have to create aur weather app in center of our webpage  */
