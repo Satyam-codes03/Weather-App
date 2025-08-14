@@ -8,11 +8,22 @@
 import React from 'react'
 
 import './Weather.css'
+
+import search_icon from '../assets/search2.png'
+
 const Weather = () => {
   return (
-    <div>
-        <h1>Weather</h1>
+    <div className="weather">
+
+
+        {/* <h1>Weather</h1> */}
         {/* now we have to replace this text, and display a box where we will display weather data so for that lets give it classname to this div and remove this h1 and design a box */}
+
+        <div className="search-bar">
+           <input type="text" placeholder='Search City'/>
+           <img src={search_icon} alt="" />
+        </div>
+
     </div>
   )
 }
