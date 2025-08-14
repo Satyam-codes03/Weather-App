@@ -10,6 +10,11 @@ import React from 'react'
 import './Weather.css'
 
 import search_icon from '../assets/search2.png'
+import clear_icon from '../assets/clear.png'
+import cloudy_icon from '../assets/cloudy.png'
+import humid_icon from '../assets/humid.png'
+import rain_icon from '../assets/raining.png'
+import wind_icon from '../assets/wind.png'
 
 const Weather = () => {
   return (
