@@ -1,7 +1,12 @@
+/* here we are importing font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* adding font family of imported google font  */
 }
 /* we will add classname app using this,we will add color to complete web page   */
 .app{
@@ -12,3 +17,6 @@
   /* bg color on complete web page  */
 }
 /* go and create a component as we have to create aur weather app in center of our webpage  */
+
+
+/* lets change the font by importing  from google font and placing the font family of this imported font in universal selector  */
