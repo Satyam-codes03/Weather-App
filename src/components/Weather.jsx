@@ -28,6 +28,10 @@ const Weather = () => {
            <input type="text" placeholder='Search City'/>
            <img src={search_icon} alt="" />
         </div>
+        <img src={clear_icon} alt="" className='weather-icon'/>
+        <p className='temperature'>16°C</p>
+        <p className='location'>Delhi</p>
+
 
     </div>
   )
