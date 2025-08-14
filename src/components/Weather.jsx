@@ -17,23 +17,43 @@ import rain_icon from '../assets/raining.png'
 import wind_icon from '../assets/wind.png'
 
 const Weather = () => {
-  return (
-    <div className="weather">
+    return (
+        <div className="weather">
 
 
-        {/* <h1>Weather</h1> */}
-        {/* now we have to replace this text, and display a box where we will display weather data so for that lets give it classname to this div and remove this h1 and design a box */}
+            {/* <h1>Weather</h1> */}
+            {/* now we have to replace this text, and display a box where we will display weather data so for that lets give it classname to this div and remove this h1 and design a box */}
 
-        <div className="search-bar">
-           <input type="text" placeholder='Search City'/>
-           <img src={search_icon} alt="" />
+            <div className="search-bar">
+                <input type="text" placeholder='Search City' />
+                <img src={search_icon} alt="" />
+            </div>
+            <img src={clear_icon} alt="" className='weather-icon' />
+            <p className='temperature'>16°C</p>
+            <p className='location'>Delhi</p>
+            {/* lets add some details about other things also like humidity and wind speed for that we will have 2 div and inside each div 1 img and some paragrap details */}
+
+            <div className="weather-data">
+                <div className="col">
+                    <img src={humid_icon} alt="" />
+                    <div>
+                        <p>91 %</p>
+                        <span>Humidity</span>
+                    </div>
+                </div>
+
+                <div className="col">
+                    <img src={humid_icon} alt="" />
+                    <div>
+                        <p>91 %</p>
+                        <span>Humidity</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <img src={clear_icon} alt="" className='weather-icon'/>
-        <p className='temperature'>16°C</p>
-        <p className='location'>Delhi</p>
-        {/* lets add some details about other things also like humidity and wind speed for that we will have 2 div and inside each div 1 img and some paragrap details will be there */}
-    </div>
-  )
+
+    )
 }
 
 export default Weather
